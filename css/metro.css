@@ -3343,7 +3343,7 @@ body {
   font: 500 0.75rem/1.1 "Segoe UI", "Open Sans", sans-serif, serif;
 }
 h1 {
-  font: 400 2.25rem/1.1 "Segoe UI", "Open Sans", sans-serif, serif;
+  font: 400 2.25rem/1.1 "Roboto", "Open Sans", sans-serif, serif;
 }
 h2 {
   font: 500 1.875rem/1.1 "Segoe UI", "Open Sans", sans-serif, serif;
@@ -7343,7 +7343,7 @@ a.image-button {
   height: 2.125rem;
   vertical-align: middle;
   background-color: #ffffff;
-  border: 1px #5A5A5A solid;
+  border: 5px #FFFFFF solid;
   color: #262626;
   cursor: pointer;
   display: inline-block;
@@ -7352,8 +7352,8 @@ a.image-button {
   line-height: 1;
   margin: .15625rem 0;
   position: relative;
-  width: 20rem;
-  height: 20rem;
+  width: 30rem;
+  height: 30rem;
   text-align: center;
   font-size: 4rem;
 }

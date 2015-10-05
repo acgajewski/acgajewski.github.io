@@ -9,6 +9,52 @@ a:hover {
   color: #fff;
 }
 
+body {
+    -webkit-animation: colorchange 50s infinite;
+    animation: colorchange 50s infinite;
+    
+}
+
+.codrops-header h1 {
+    font-weight: 700;
+    font-size: 4.5em;
+    line-height: 1.2;
+    color: #fff;
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    top: 50px;
+}
+
+@keyframes colorchange
+{
+0%   {background: #6ea634;}
+12.5%  {background: #0090b6;}
+25%  {background: #de5d5a;}
+37.5%  {background: #2b5c74;}
+50% {background: #ff9657;}
+62.5%  {background: #2b5c74;}
+75%  {background: #de5d5a;}  
+87.5%  {background: #0090b6;}   
+100%   {background: #6ea634;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome */
+{
+0%   {background: #6ea634;}
+12.5%  {background: #0090b6;}
+25%  {background: #de5d5a;}
+37.5%  {background: #2b5c74;}
+50% {background: #ff9657;}
+62.5%  {background: #2b5c74;}
+75%  {background: #de5d5a;}  
+87.5%  {background: #0090b6;}   
+100%   {background: #6ea634;}
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -201,6 +247,6 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 1080px;
   }
 }
